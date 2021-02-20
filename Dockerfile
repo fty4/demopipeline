@@ -2,4 +2,4 @@ FROM alpine:latest
 
 LABEL maintainer="mail@task.media"
 
-RUN touch /helloWorld
+RUN echo "hi there" > /helloWorld
