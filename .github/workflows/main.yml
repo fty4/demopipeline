@@ -21,10 +21,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo ${{ github.event.release.tag_name }}
           
       - name: Login to DockerHub
         uses: docker/login-action@v1 
@@ -37,5 +33,5 @@ jobs:
         uses: docker/build-push-action@v2.3.0
         with:
           push: true
-          tags: fty4/testbuild:latest
+          tags: fty4/testbuild:latest,fty4/testbuild:${{ github.event.release.tag_name }}
 
