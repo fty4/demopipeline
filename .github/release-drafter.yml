@@ -14,6 +14,9 @@ categories:
   - title: '📓 Documentation'
     labels:
       - 'documentation'
+  - title: '🐋 Docker'
+    labels:
+      - 'docker'
 exclude-labels:
   - 'skip-changelog'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
