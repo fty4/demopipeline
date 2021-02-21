@@ -5,6 +5,7 @@ workflows:
 # add 'documentation' label to any changes in docs directory
 documentation:
   - docs/**/*
+  - README.md
 
 # add 'docker' label to any changes related to docker
 docker:
