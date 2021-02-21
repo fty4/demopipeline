@@ -13,3 +13,13 @@ func TestSub(t *testing.T) {
 		t.Errorf("sub method produced wrong result. expected: %d, got: %d", want, got)
 	}
 }
+
+func TestMultiply(t *testing.T) {
+	if got, want := Subtract(4, 2), 8; got != want {
+		t.Errorf("multiply method produced wrong result. expected: %d, got: %d", want, got)
+
+
+		
+
+	}
+}
