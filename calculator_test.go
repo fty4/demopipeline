@@ -15,11 +15,8 @@ func TestSub(t *testing.T) {
 }
 
 func TestMultiply(t *testing.T) {
-	if got, want := Subtract(4, 2), 8; got != want {
+	if got, want := Multiply(4, 2), 8; got != want {
 		t.Errorf("multiply method produced wrong result. expected: %d, got: %d", want, got)
-
-
-		
 
 	}
 }
