@@ -1,0 +1,13 @@
+# add 'workflows' label to any changes in .github directory
+workflows:
+  - .github/**/*
+
+# add 'documentation' label to any changes in docs directory
+documentation:
+  - docs/**/*
+
+# add 'docker' label to any changes related to docker
+docker:
+  - Dockerfile
+  - docker-compose.yml
+
