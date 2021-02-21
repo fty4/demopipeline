@@ -11,6 +11,9 @@ categories:
     labels:
       - 'fix'
       - 'bug'
+  - title: '📓 Documentation'
+    labels:
+      - 'documentation'
 exclude-labels:
   - 'skip-changelog'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
